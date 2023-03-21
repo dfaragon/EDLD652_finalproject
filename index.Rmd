@@ -857,15 +857,15 @@ plt
 
 ```{r}
 #install.packages("git2r")
-
- library(git2r)
-git2r::config(user.name = "dfaragon", user.email = "dotz.da@gmail.com")
-repo <- git2r::repository(".")
-git2r::add(repo, "index.Rmd")
-
-git2r::commit(repo, "adding final project")
-git2r::push(repo)
-add(repo, "index.Rmd")
+# 
+#  library(git2r)
+# git2r::config(user.name = "dfaragon", user.email = "dotz.da@gmail.com")
+# repo <- git2r::repository(".")
+# git2r::add(repo, "index.Rmd")
+# 
+# git2r::commit(repo, "adding final project")
+# git2r::push(repo)
+# add(repo, "index.Rmd")
 ```
 
 
